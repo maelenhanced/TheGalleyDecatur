@@ -3226,6 +3226,8 @@ input[type="button"].btn-block {
 
 .dropdown {
   position: relative;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .dropdown-toggle:focus {
@@ -3235,7 +3237,7 @@ input[type="button"].btn-block {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: auto;
   z-index: 1000;
   display: none;
   float: left;
@@ -4028,6 +4030,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+}
+.navbar .nav li .dropdown-menu li {
+    display: block;
+    width: auto;
 }
 
 .navbar:before,
