@@ -52,11 +52,11 @@
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
                         <li class="nav-item dropdown">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown">Menu <span class="caret"></span></a>
+                            <a class="dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown">Menus <span class="caret"></span></a>
                             <div class="dropdown-menu">
                                 <ul class="nav navbar-nav">
-                                    <li><a runat="server" href="~/Menu">Dine-In</a></li>
-                                    <li><a runat="server" href="~/Carryout">Carryout</a></li>
+                                    <li style="padding-left: 15px;"><a runat="server" href="~/Menu">Dine-In</a></li>
+                                    <li style="padding-left: 15px;"><a runat="server" href="~/Carryout">Carryout</a></li>
                                  </ul>
                             </div> 
                         </li>
